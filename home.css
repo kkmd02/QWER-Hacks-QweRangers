@@ -1,0 +1,16 @@
+h1 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.box1 {
+    background-color:rgb(235, 7, 7);
+    width:fit-display;
+    height:fit-content;
+}
+
+.box2 {
+    background-color:blue;
+    width:fit-content;
+    height:fit-content;
+}
