@@ -29,6 +29,11 @@ main {
     font-weight: bold;
 }
 
+.cityTextbox{
+    height: auto;
+    width:auto;
+}
+
 section{
     position: absolute;
     left: 50%;
