@@ -30,9 +30,13 @@ button.onclick = function(){
     .then((data)=>{return data.json()})
     .then((data)=>{
         console.log(data)
+        var score = document.getElementById('score')
+        score.innerHTML = data['score']
         var answer_box = document.getElementById('answer_box')
         answer_box.innerHTML = data['output']
-
+        var queer_owned = document.getElementById('queer_owned')
+        queer_owned.innerHTML = data['queer']
+        
     })
 }
 

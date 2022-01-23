@@ -40,8 +40,15 @@ section{
     width: auto;
 
 }
-
+.score{
+    background-color: white;
+    width:auto;
+}
 .answer_box{
+    background-color: white;
+    width:auto;
+}
+.queer_owned{
     background-color: white;
     width:auto;
 }
@@ -66,7 +73,7 @@ footer {
     background-color:rbba(128, 128, 128, 0.8);
   }
 
-input, textarea { 
+  input, textarea { 
 	padding: 9px; 
 	border: solid 1px #E5E5E5; 
 	outline: 0; 
