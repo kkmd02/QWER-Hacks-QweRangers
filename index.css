@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(171, 178, 194);
+    background-image: url(../images/LGBTQ-Best-Places-To-Work.jpg);
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-display;
+}
+
+header{
+    height: auto;
+    text-align: center;
+    font-size: 2em
+}
+
+img {
+    max-width: 100px;
+    max-height: 150px;
+}
+
+main {
+    text-align: center;
+    height: auto;
+    width:auto;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.cityTextbox{
+    height: auto;
+    width:auto;
+}
+
+section{
+    /* background-color: blue; */
+    border-top: 1px;
+    width: auto;
+
+}
+.score{
+    background-color: white;
+    width:auto;
+}
+.answer_box{
+    background-color: white;
+    width:auto;
+}
+.queer_owned{
+    background-color: white;
+    width:auto;
+}
+
+input[type="text"] {
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    width: auto;
+}
+
+footer {
+    position: absolute;
+    align-items: center;
+    width: auto;
+    bottom: 0;
+    height: 2.5rem;            /* Footer height */
+    padding-top: 1px;
+    background-color:rbba(128, 128, 128, 0.8);
+  }
+
+  input, textarea { 
+	padding: 9px; 
+	border: solid 1px #E5E5E5; 
+	outline: 0; 
+	font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+	width: 200px; 
+	background: #FFFFFF; 
+	} 
+  
+textarea { 
+	width: 400px; 
+	max-width: 400px; 
+	height: 150px; 
+	line-height: 150%; 
+	} 
+  
+input:hover, textarea:hover, 
+input:focus, textarea:focus { 
+	border-color: #C9C9C9; 
+	} 
