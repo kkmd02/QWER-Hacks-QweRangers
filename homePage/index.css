@@ -35,11 +35,15 @@ main {
 }
 
 section{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    /* background-color: blue; */
+    border-top: 1px;
+    width: auto;
+
+}
+
+.answer_box{
+    background-color: black;
+    width:auto;
 }
 
 input[type="text"] {
