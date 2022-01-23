@@ -1,3 +1,54 @@
-h1 {
-    color: rgb(185, 37, 37);
+body {
+    background-color: rgb(171, 178, 194);
+    background-image: url(../images/LGBTQ-Best-Places-To-Work.jpg);
 }
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-display;
+}
+
+header{
+    height: auto;
+    text-align: center;
+    font-size: 2em
+}
+
+img {
+    max-width: 100px;
+    max-height: 150px;
+}
+
+main {
+    text-align: center;
+    height: auto;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.textbox1 {
+    height: 45px;
+    width: fit-content;
+}
+
+input[type="text"] {
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    align-items: center;
+    width: fit-content;
+    bottom: 0;
+    vertical-align: bottom;
+    horizontal-align: center;
+    height: 2.5rem;            /* Footer height */
+    padding-top: 1px;
+    background-color:rbba(128, 128, 128, 0.8);
+  }
+
+
