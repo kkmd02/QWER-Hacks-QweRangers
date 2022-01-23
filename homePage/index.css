@@ -24,13 +24,17 @@ img {
 main {
     text-align: center;
     height: auto;
+    width:auto;
     font-size: 45px;
     font-weight: bold;
 }
 
-.textbox1 {
-    height: 45px;
-    width: fit-content;
+section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 input[type="text"] {
@@ -39,13 +43,17 @@ input[type="text"] {
     text-align: center;
 }
 
+button {
+    height: 50px;
+    font-size: 25px;
+    width: auto;
+}
+
 footer {
     position: absolute;
     align-items: center;
-    width: fit-content;
+    width: auto;
     bottom: 0;
-    vertical-align: bottom;
-    horizontal-align: center;
     height: 2.5rem;            /* Footer height */
     padding-top: 1px;
     background-color:rbba(128, 128, 128, 0.8);
